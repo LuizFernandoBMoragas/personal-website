@@ -17,11 +17,20 @@ body {
 }
 .my-name {
   width: 470px;
-  color: white;
+  color: aliceblue;
+  /* color: white; */
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-left: 3rem;
+}
+
+span {
+  color: brown;
+}
+
+h3 > span {
+  color: rgba(255, 255, 0, 0.767);
 }
 
 h1 {
@@ -44,18 +53,45 @@ h2 {
 }
 
 .personal-links {
-  width: 470px;
+  width: 490px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: -5rem;
+  margin-top: 1rem;
   gap: 2rem;
+}
+
+.personal-links > h1 {
+  color: white;
+  margin-top: -7rem;
+  font-size: 1.7rem;
+  margin-left: 6rem;
 }
 
 button {
   margin-right: 3rem;
-  height: 100px;
+  width: 490;
+  height: 50px;
   padding: 0.5rem;
-  font-size: 1.1rem;
-  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 400;
+  border-radius: 5px;
+  background-color: brown;
+  color: aliceblue;
+}
+
+button:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 0, 0.767);
+  /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+  /* box-shadow: 10px -8px rgba(21, 93, 226, 0.781); */
+}
+
+.personal-links > h2 {
+  color: aliceblue;
+}
+
+.personal-links > h3 {
+  color: aliceblue;
+  margin-top: -2rem;
 }
