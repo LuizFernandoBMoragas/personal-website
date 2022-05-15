@@ -97,3 +97,40 @@ button:hover {
   margin-top: -2rem;
   margin-left: 8rem;
 }
+
+/* ------------------------ */
+
+@media (max-width: 800px) {
+  .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .my-name {
+    align-items: center;
+    margin-top: -200px;
+  }
+  .frase {
+    margin-top: 2.5rem;
+  }
+  .personal-links {
+    align-items: center;
+  }
+  .img-wrapper img {
+    padding-bottom: 3rem;
+  }
+  .personal-links > h1 {
+    margin-left: 3rem;
+  }
+  .personal-links > h3 {
+    margin-left: -10px;
+    margin-left: 5px;
+    margin-bottom: 2rem;
+    padding-left: 60px;
+  }
+  button {
+    padding-left: 1rem;
+    margin-left: 5rem;
+    height: auto;
+  }
+}
