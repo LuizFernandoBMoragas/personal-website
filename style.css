@@ -109,13 +109,16 @@ button:hover {
   .my-name {
     align-items: center;
     margin-top: -200px;
-    margin-left: 2rem;
+    /* border: 2px solid white; */
+    margin-right: -6rem;
   }
   .frase {
     margin-top: 2.5rem;
   }
   .personal-links {
     align-items: center;
+    /* border: 2px solid white; */
+    margin-right: -8rem;
   }
   .img-wrapper img {
     padding-bottom: 3rem;
