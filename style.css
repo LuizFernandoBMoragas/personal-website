@@ -109,6 +109,7 @@ button:hover {
   .my-name {
     align-items: center;
     margin-top: -200px;
+    margin-left: 2rem;
   }
   .frase {
     margin-top: 2.5rem;
